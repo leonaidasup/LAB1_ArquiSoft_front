@@ -1,0 +1,50 @@
+.transaction-container {
+    margin: 20px 0;
+  }
+  
+  .transaction-input {
+    padding: 6px 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .transaction-search-btn,
+  .transaction-toggle-btn {
+    padding: 6px 12px;
+    margin-right: 10px;
+    background-color: #218838;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .transaction-search-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .transaction-search-btn:hover:not(:disabled),
+  .transaction-toggle-btn:hover {
+    background-color: #218838;
+  }
+  
+  .transaction-table {
+    margin-top: 15px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .transaction-table th,
+  .transaction-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .transaction-table th {
+    background-color: #218838;
+    color: white;
+  }
+  

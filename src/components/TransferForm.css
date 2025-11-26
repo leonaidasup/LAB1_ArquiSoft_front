@@ -1,0 +1,30 @@
+.transfer-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px 0;
+  }
+  
+  .transfer-input {
+    padding: 6px 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .transfer-btn {
+    margin-top: 10px;
+    padding: 6px 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 419px;
+  }
+  
+  .transfer-btn:hover {
+    background-color: #218838;
+  }
+  
